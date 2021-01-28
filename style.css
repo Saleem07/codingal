@@ -125,6 +125,10 @@ h3 {
   font-size: 15px;
 }
 
+#textarea-container {
+  width: 80%;
+}
+
 #cancel-button {
   border: none;
   background: none;
