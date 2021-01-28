@@ -112,7 +112,7 @@ h3 {
   transition: visibility 0s, opacity 1s ease-out;
   opacity: 0;
   height: 0;
-  overflow: hidden;
+  width: 400px;
 }
 
 #end-class {
@@ -125,9 +125,9 @@ h3 {
   font-size: 15px;
 }
 
-#textarea-container {
+/* #textarea-container {
   width: 80%;
-}
+} */
 
 #cancel-button {
   border: none;

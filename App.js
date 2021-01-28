@@ -13,6 +13,8 @@ const updateCountdown = () => {
   seconds = seconds < 10 ? "0" + seconds : seconds;
 
   countDownEl.innerHTML = `${minutes}:${seconds}`;
+
+  countDownEl.innerHTML === "0:00" ? updateCountdown() : "";
   time--;
 };
 let id = setInterval(updateCountdown, 1000);
